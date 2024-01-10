@@ -54,65 +54,65 @@ def show_page():
                     with st.spinner('''درحال بررسی، لطفا صبور باشید'''):
                         time.sleep(3)
                         st.success(u'\u2713''تحلیل انجام شد')
-                        st.write("<h4 style='text-align: right; color: gray;'>.بر اساس تحلیل من، متن شما دارای حس خنثی است</h4>", unsafe_allow_html=True)
-                        st.write("<h4 style='text-align: right; color: gray;'>.کلمات متن شما از نظر احساسی دارای وزن یکسان هستند</h4>", unsafe_allow_html=True)
-                        st.write("<h4 style='text-align: right; color: gray;'>.در نتیجه حس خاصی از این متن درک نمی کنم</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>بر اساس تحلیل من، متن شما دارای حس خنثی است</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>کلمات متن شما از نظر احساسی دارای وزن یکسان هستند</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>در نتیجه حس خاصی از این متن درک نمی کنم</h4>", unsafe_allow_html=True)
             
             elif prediction_class == 'joy':
                 with st.chat_message("assistant"):
                     with st.spinner('''درحال بررسی، لطفا صبور باشید'''):
                         time.sleep(3)
                         st.success(u'\u2713''تحلیل انجام شد')
-                        st.write("<h4 style='text-align: right; color: gray;'>.بر اساس تحلیل من، متن شما دارای حس مثبت است</h4>", unsafe_allow_html=True)
-                        st.write("<h4 style='text-align: right; color: gray;'>.کلمات متن شما ترکیبی از احساساتی نظیر حس شادابی، عشق و انرژی هستند</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>بر اساس تحلیل من، متن شما دارای حس مثبت است</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>کلمات متن شما ترکیبی از احساساتی نظیر حس شادابی، عشق و انرژی هستند</h4>", unsafe_allow_html=True)
 
             elif prediction_class == 'sadness':
                 with st.chat_message("assistant"):
                     with st.spinner('''درحال بررسی، لطفا صبور باشید'''):
                         time.sleep(3)
                         st.success(u'\u2713''تحلیل انجام شد')
-                        st.write("<h4 style='text-align: right; color: gray;'>.بر اساس تحلیل من، متن شما دارای حس منفی است</h4>", unsafe_allow_html=True)
-                        st.write("<h4 style='text-align: right; color: gray;'>.کلمات متن شما ترکیبی از احساساتی نظیر حس غم،فقدان و ناامیدی هستند</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>بر اساس تحلیل من، متن شما دارای حس منفی است</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>کلمات متن شما ترکیبی از احساساتی نظیر حس غم،فقدان و ناامیدی هستند</h4>", unsafe_allow_html=True)
 
             elif prediction_class == 'fear':
                 with st.chat_message("assistant"):
                     with st.spinner('''درحال بررسی، لطفا صبور باشید'''):
                         time.sleep(3)
                         st.success(u'\u2713''تحلیل انجام شد')
-                        st.write("<h4 style='text-align: right; color: gray;'>.بر اساس تحلیل من، متن شما دارای حس ترس است</h4>", unsafe_allow_html=True)
-                        st.write("<h4 style='text-align: right; color: gray;'>.کلمات متن شما ترکیبی از احساساتی نظیر حس ترس و نگرانی هستند</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>بر اساس تحلیل من، متن شما دارای حس ترس است</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>کلمات متن شما ترکیبی از احساساتی نظیر حس ترس و نگرانی هستند</h4>", unsafe_allow_html=True)
 
             elif prediction_class == 'surprise':
                 with st.chat_message("assistant"):
                     with st.spinner('''درحال بررسی، لطفا صبور باشید'''):
                         time.sleep(3)
                         st.success(u'\u2713''تحلیل انجام شد')
-                        st.write("<h4 style='text-align: right; color: gray;'>.بر اساس تحلیل من، متن شما دارای حس هیجان و شگفت زدگی است</h4>", unsafe_allow_html=True)
-                        st.write("<h4 style='text-align: right; color: gray;'>.کلمات متن شما ترکیبی از احساساتی نظیر حس غافلگیر شدن و بهت زده شدن هستند</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>بر اساس تحلیل من، متن شما دارای حس هیجان و شگفت زدگی است</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>کلمات متن شما ترکیبی از احساساتی نظیر حس غافلگیر شدن و بهت زده شدن هستند</h4>", unsafe_allow_html=True)
 
             elif prediction_class == 'anger':
                 with st.chat_message("assistant"):
                     with st.spinner('''درحال بررسی، لطفا صبور باشید'''):
                         time.sleep(3)
                         st.success(u'\u2713''تحلیل انجام شد')
-                        st.write("<h4 style='text-align: right; color: gray;'>.بر اساس تحلیل من، متن شما دارای حس عصبانیت است</h4>", unsafe_allow_html=True)
-                        st.write("<h4 style='text-align: right; color: gray;'>.کلمات متن شما ترکیبی از احساساتی نظیر حس خشم، کینه و نفرت هستند</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>بر اساس تحلیل من، متن شما دارای حس عصبانیت است</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>کلمات متن شما ترکیبی از احساساتی نظیر حس خشم، کینه و نفرت هستند</h4>", unsafe_allow_html=True)
 
             elif prediction_class == 'shame':
                 with st.chat_message("assistant"):
                     with st.spinner('''درحال بررسی، لطفا صبور باشید'''):
                         time.sleep(3)
                         st.success(u'\u2713''تحلیل انجام شد')
-                        st.write("<h4 style='text-align: right; color: gray;'>.بر اساس تحلیل من، متن شما دارای حس شرمندگی است</h4>", unsafe_allow_html=True)
-                        st.write("<h4 style='text-align: right; color: gray;'>.کلمات متن شما ترکیبی از احساساتی نظیر حس شرمندگی و شرمساری هستند</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>بر اساس تحلیل من، متن شما دارای حس شرمندگی است</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>کلمات متن شما ترکیبی از احساساتی نظیر حس شرمندگی و شرمساری هستند</h4>", unsafe_allow_html=True)
     
             else:
                 with st.chat_message("assistant"):
                     with st.spinner('''درحال بررسی، لطفا صبور باشید'''):
                         time.sleep(3)
                         st.success(u'\u2713''تحلیل انجام شد')
-                        st.write("<h4 style='text-align: right; color: gray;'>.بر اساس تحلیل من، متن شما دارای حس انزجار است</h4>", unsafe_allow_html=True)
-                        st.write("<h4 style='text-align: right; color: gray;'>.کلمات متن شما ترکیبی از احساساتی نظیر حس انزجار، بیزاری و بی میلی هستند</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>بر اساس تحلیل من، متن شما دارای حس انزجار است</h4>", unsafe_allow_html=True)
+                        st.write("<h4 style='text-align: right; color: gray;'>کلمات متن شما ترکیبی از احساساتی نظیر حس انزجار، بیزاری و بی میلی هستند</h4>", unsafe_allow_html=True)
     else:
         pass
             
